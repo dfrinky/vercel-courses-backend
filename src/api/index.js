@@ -1,6 +1,6 @@
-module.exports = (req, res) => {
-    res.status(200).json({ message: 'Hello from Node.js!' });
-};
+// module.exports = (req, res) => {
+//     res.status(200).json({ message: 'Hello from Node.js!' });
+// };
 
 
 const allowCors = fn => async (req, res) => {
