@@ -1,0 +1,683 @@
+[
+    {
+        "id": 1, 
+        "name": "Osnove programiranja", 
+        "overview": "Ovaj kurs namenjen je onima koji nemaju prethodnog iskustva u programiranju. Gradivo obuhvata osnove proceduralnog i objektnog programiranja korišćenjem programskog jezika Java. Na kursu možete steći predznanje, neophodno za uspešno praćenje nastave na naprednim kursevima programiranja. Uslov za pohađanje kursa je računarska pismenost, odnosno, poznavanje rada u Windows operativnom sistemu i sposobnost korištenja interneta.", 
+        "weeks": 7, 
+        "classes": 36, 
+        "classesPerWeek": 6, 
+        "description": "Kurs je namenjen onima koji žele da steknu predznanje iz osnova programiranja, neophodno za uspešno praćenje nastave na naprednim kursevima programiranja koje organizujemo (Java web development, Front-end web development, .NET Web Development, Test Development i Android Development kurs).\n\nSvaki termin nastave se sastoji iz kraćeg teoretskog dela, u kojem se polaznici upoznaju sa odgovarajućim konceptima, i većeg broja primera i zadataka, kroz koje polaznici primenjuju naučene koncepte u praksi. Na kraju svakog predavanja polaznici dobijaju domaće zadatke namenjene za utvrđivanje gradiva i sticanje samostalnosti u radu. Za polaznike kursa obezbeđen je računar, softver neophodan za realizaciju nastave i nastavni materijal u elektronskoj formi.", 
+        "price": 48000.0,
+        "modules": [
+            {
+                "name": null, 
+                "subjects": [
+                    "Korišćenje Eclipse okruženja", 
+                    "Poznavanje osnova Java sintakse - rad sa promenljivima, korišćenje aritmetičkih, relacionih i logičkih operatora", 
+                    "Sposobnost upravljanja tokom programa - poznavanje uslovnih izraza i rada sa ciklusima", 
+                    "Korišćenje funkcija", 
+                    "Sposobnost rada sa nizovima podataka", 
+                    "Sposobnost programiranja osnovnih algoritamskih struktura", 
+                    "Korišćenje ulazno - izlaznog podsistema iz Java programa", 
+                    "Poznavanje osnovnih koncepata objektnog programiranja"
+                ]
+            }
+        ],
+        "grading": "Na kraju kursa organizuje se završni ispit, koji obuhvata celokupno gradivo kursa. Po završetku kursa polaznicima se dodeljuje sertifikat o pohađanju ili uspešno završenom kursu, u zavisnosti od rezultata ostvarenog na završnom ispitu. Kurs je uspešno završen, ako polaznik na završnom ispitu ostvari najmanje 50% ukupno mogućih bodova (100).", 
+        "image": "fundamentals.png"
+    },
+    {
+        "id": 2, 
+        "name": "Java Web Development", 
+        "overview": "Ovo je intenzivni kurs namenjen onima koji žele da steknu kompetencije junior full stack developer-a za razvoj web aplikacija na Java platformi. Gradivo obuhvata razvoj serverskog dela web aplikacija upotrebom Java tehnologija i klijentskog dela web aplikacija korišćenjem React frameworka.", 
+        "weeks": 15, 
+        "classes": 132, 
+        "classesPerWeek": 12, 
+        "description": "Kurs je namenjen onima koji žele da steknu kompetencije junior full stack developer-a za razvoj web aplikacija na Java platformi. Polaznici koji uspešno završe kurs se preporučuju za poziv na selekciju za zaposlenje u kompanijama sa kojima FTN Informatika ima dogovor o saradnji. O kojim se kompanijama radi možete pogledati u sekciji Partneri.\n\nZa pohađanje kursa neophodno je da polaznici imaju predznanje iz osnova programiranja u nekom od programskih jezika visokog nivoa (Java, JavaScript, C++, C# i slično). Kao pomoć u proceni programerskih veština interesenata za kurs, organizujemo besplatna preliminarna testiranja. Ukoliko znate da nemate predznanje iz programiranja ili to ustanovite na preliminarnom testiranju, možete se opredeliti za pohađanje kursa Osnove programiranja, koji organizujemo kao pripremu za uspešno praćenje nastave na Java Web Development kursu.\n\nKurs Java Web Development je podeljen na tri modula: Osnove Java programiranja (modul 1), Osnove veb programiranja (modul 2) i Napredno veb programiranje (modul 3). Svaki termin nastave se sastoji iz kraćeg teoretskog dela, u kojem se polaznici upoznaju sa odgovarajućim konceptima i većeg broja primera i zadataka, kroz koje polaznici primenjuju naučene koncepte u praksi. Na kraju svakog predavanja polaznici dobijaju domaće zadatke, namenjene za utvrđivanje gradiva i sticanje samostalnosti u radu. Za polaznike kursa obezbeđen je računar, softver neophodan za realizaciju nastave i nastavni materijal u elektronskoj formi.", 
+        "price": 106800.0,
+        "modules": [
+            {
+                "name": "Modul 1. Osnove Java Programiranja",
+                "subjects": [
+                    "Korišćenje Eclipse okruženja", 
+                    "Poznavanje osnovnih koncepata objektnog programiranja (apstrakcija, generalizacija, polimorfizam)", 
+                    "Sposobnost programiranja osnovnih algoritamskih struktura", 
+                    "Sposobnost rada sa ulazom i izlazom (standardni ulaz/izlaz i fajl sistem)", 
+                    "Elementarni rad sa bazama podataka (osnove relacionog modela, SQL jezika i mehanizmi povezivanja Java aplikacije sa bazom podataka)", 
+                    "Korišćenje eksternih Java biblioteka", 
+                    "Korišćenje GIT sistema za kontrolu verzija programskog koda i timski rad", 
+                    "Korišćenje JUnit biblioteke za testiranje softvera"
+                ]
+            }, 
+            {
+                "name": "Modul 2. Osnove web programiranja",
+                "subjects": [
+                    "Poznavanje osnovnih i jednog dela naprednih HTML 4 i HTML 5 koncepata i struktura", 
+                    "Poznavanje osnovnih i jednog dela naprednih CSS koncepata i struktura", 
+                    "Korišćenje Eclipse java EE okruženja sa akcentom na segment za veb programiranje", 
+                    "Sposobnost korišćenja Apache Tomcat veb servera (bazični principi, puštanje aplikacije u produkciju - deploy)", 
+                    "Sposobnost korišćenja Maven alata za izgradnju tj. konstrukciju projekta kompleksnih aplikacija", 
+                    "Poznavanje koncepata i tehnologija Spring, Spring Boot, MVC (Model View Controler), Thymeleaf", 
+                    "Poznavanje Dependency injection i Inversion of Control šablona", 
+                    "Sposobnost programiranja bazične veb aplikacije koja koristi bazu podataka", 
+                    "Poznavanje osnovnih i jednog dela naprednih struktura JavaScript programskog jezika", 
+                    "Poznavanje osnovnih i jednog dela naprednih struktura Jquery i AJAX tehnologija", 
+                    "Sposobnost izrade kompetne veb aplikacije bazirane MVC arhitekturi"
+                ]
+            }, 
+            {
+                "name": "Modul 3. Napredno web programiranje",
+                "subjects": [
+                    "Poznavanje osnova objektno-relacionog mapiranja", 
+                    "Korišćenje Spring Data JPA uz Hibernate implementaciju", 
+                    "Osnove rada sa transakcijama", 
+                    "Poznavanje REST koncepata", 
+                    "Poznavanje sigurnosnih koncepata sa Spring Security", 
+                    "Autorizacija i Autentifikacija", 
+                    "Poznavanje Data Transfer Object koncepta", 
+                    "Sposobnost izrade REST servisa korišćenjem Spring frameworka", 
+                    "Poznavanje JavaScript-a i koncepata potrebnih za razumevanje React framework-a", 
+                    "Poznavanje ES6", 
+                    "Ovladavanje single-page application (SPA) konceptom", 
+                    "Korišćenje Bootstrap i Redux biblioteke, Sorting, Pagination", 
+                    "Korišćenje React frameworka za razvoj klijentskih front-end aplikacija (funkcijske komponente, klase, komponente, korišćenje JSX-a, properties, state, rutiranje, CRUD, asinhronost)"
+                ]
+            }
+        ],
+        "grading": "Na kraju svakog modula organizuje se poseban termin za ispit. Rezultati sa parcijalnih ispita nakon 1. i 2. modula ne utiču na sertifikaciju i služe kao informacija polazniku u kojoj meri je savladao gradivo. Nakon 3. modula organizuje se završni ispit, na osnovu kojeg se vrši sertifikacija.\n\nPo završetku kursa polaznicima se dodeljuje sertifikat o pohađanju ili uspešno završenom kursu, u zavisnosti od rezultata ostvarenog na završnom ispitu. Kurs je uspešno završen, ako polaznik na završnom ispitu ostvari najmanje 50% ukupno mogućih bodova (100).", 
+        "image": "java.png"
+    },
+    {
+        "id": 3, 
+        "name": ".NET Web Development", 
+        "overview": "Ovo je intenzivni kurs namenjen onima koji žele da steknu kompetencije junior full stack developer-a za razvoj web aplikacija na .NET platformi. Gradivo obuhvata razvoj serverskog dela web aplikacija upotrebom .NET tehnologija i klijentskog dela web aplikacija korišćenjem JavaScript jezika i pridruženih tehnologija.", 
+        "weeks": 15, 
+        "classes": 132, 
+        "classesPerWeek": 12, 
+        "description": "Kurs je namenjen onima koji žele da steknu kompetencije junior full stack developer-a za razvoj web aplikacija na .NET platformi. Polaznici koji uspešno završe kurs se preporučuju za poziv na selekciju za zaposlenje u kompanijama sa kojima FTN Informatika ima dogovor o saradnji. O kojim se kompanijama radi možete pogledati u sekciji Partneri.\n\nZa pohađanje kursa neophodno je da polaznici imaju predznanje iz osnova programiranja u nekom od programskih jezika visokog nivoa (C#, Java, JavaScript, C++ i slično). Kao pomoć u proceni programerskih veština interesenata za kurs, organizujemo besplatna preliminarna testiranja. Ukoliko znate da nemate predznanje iz programiranja ili to ustanovite na preliminarnom testiranju, možete se opredeliti za pohađanje kursa Osnove programiranja, koji organizujemo kao pripremu za uspešno praćenje nastave na .NET Web Development kursu.\n\nKurs .NET Web Development je podeljen na tri modula: Osnove C# programiranja (modul 1.), Osnove web programiranja (modul 2.) i Napredno web programiranje (modul 3.). Predavanja se sastoje iz kraćeg teoretskog dela, u kojem se polaznici upoznaju sa odgovarajućim konceptima i većeg broja zadataka, u kojima polaznici primenjuju naučene koncepte u praksi. Na kraju svakog predavanja polaznici dobijaju domaće zadatke, namenjene za utvrđivanje gradiva i sticanje samostalnosti u radu. Za svakog polaznika kursa obezbeđen je računar, softver neophodan za realizaciju nastave i nastavni materijal u elektronskoj formi.", 
+        "price": 106800.0,
+        "modules": [
+            {
+                "name": "Modul 1. Osnove C# Programiranja",
+                "subjects": [
+                    "Korišćenje Visual Studio okruženja", 
+                    "Poznavanje osnovnih koncepata objektnog programiranja (apstrakcija, generalizacija, polimorfizam)", 
+                    "Sposobnost programiranja osnovnih algoritamskih struktura i korišćenje funkcija", 
+                    "Sposobnost rada sa ulazom i izlazom (standardni ulaz/izlaz i fajl sistem)", 
+                    "Elementarni rad sa bazama podataka (osnove relacionog modela, SQL jezika i mehanizmi povezivanja C# aplikacije sa bazom podataka)", 
+                    "Korišćenje eksternih .NET biblioteka", 
+                    "Korišćenje GIT sistema za kontrolu verzija programskog koda", 
+                    "Korišćenje biblioteke za Unit testiranje softvera"
+                ]
+            }, 
+            {
+                "name": "Modul 2. Osnove web programiranja",
+                "subjects": [
+                    "Poznavanje osnovnih i jednog dela naprednih HTML 4 i HTML 5 koncepata i struktura", 
+                    "Poznavanje osnovnih i jednog dela naprednih CSS koncepata i struktura", 
+                    "Korišćenje Visual Studio okruženja sa akcentom na segment za web programiranje", 
+                    "Sposobnost korišćenja IIS veb servera (bazični principi, puštanje aplikacije u produkciju - deploy)", 
+                    "Poznavanje koncepata i tehnologija .NET MVC (Model View Controler), Razor, HTML Helpers, Data Annotation, Data Binding, Data Validation.", 
+                    "Sposobnost programiranja bazične web aplikacije koja koristi bazu podataka", 
+                    "Poznavanje osnovnih i jednog dela naprednih struktura JavaScript programskog jezika", 
+                    "Poznavanje osnovnih i jednog dela naprednih struktura JQuery", 
+                    "Sposobnost izrade kompetne veb aplikacije bazirane .NET MVC tehnologiji"
+                ]
+            }, 
+            {
+                "name": "Modul 3. Napredno web programiranje",
+                "subjects": [
+                    "Poznavanje koncepata i načina korišćenja Entity Framework", 
+                    "Poznavanje osnova objektno-relacionog mapiranja, Auto Mapper, LINQ", 
+                    "Scaffolding, Partial View", 
+                    "Poznavanje Dependency injection šablona", 
+                    "Poznavanje REST koncepata", 
+                    "Sposobnost izrade REST servisa korišćenjem ASP.NET Web API", 
+                    "Korišćenje Bootstrap biblioteke, Sorting, Pagination", 
+                    "AJAX, Ovladavanje single-page application (SPA) konceptom", 
+                    "Autorizacija i Autentifikacija, osnove OAuth principa"
+                ]
+            }
+        ],
+        "grading": "Na kraju svakog modula organizuje se poseban termin za ispit. Rezultati sa parcijalnih ispita nakon 1. i 2. modula ne utiču na sertifikaciju i služe kao informacija polazniku u kojoj meri je savladao gradivo. Nakon 3. modula organizuje se završni ispit, na osnovu kojeg se vrši sertifikacija.\n\nPo završetku kursa polaznicima se dodeljuje sertifikat o pohađanju ili uspešno završenom kursu, u zavisnosti od rezultata ostvarenog na završnom ispitu. Kurs je uspešno završen, ako polaznik na završnom ispitu ostvari najmanje 50% ukupno mogućih bodova (100).", 
+        "image": "dotnet.png"
+    }, 
+    {
+        "id": 4, 
+        "name": "Front-End Development", 
+        "overview": "Ovo je intenzivni kurs namenjen onima koji žele da steknu kompentecije junior developer-a za razvoj klijentskog dela web aplikacija. Gradivo obuhvata koncepte web dizajna, osnovno i napredno JavaScript programiranje uključujući TypeScript i izradu modernih klijentskih aplikacija upotrebom Angular radnog okvira.", 
+        "weeks": 14, 
+        "classes": 120, 
+        "classesPerWeek": 12, 
+        "description": "Kurs je namenjen onima koji žele da steknu kompetencije junior developer-a za razvoj klijentskog dela web aplikacija. Polaznici koji uspešno završe kurs, preporučuju se za poziv na selekciju za zaposlenje u kompanijama sa kojima FTN Informatika ima dogovor o saradnji. O kojim se kompanijama radi možete pogledati u sekciji Partneri.\n\nZa pohađanje kursa neophodno je da polaznici imaju predznanje iz osnova programiranja u nekom od programskih jezika visokog nivoa (JavaScript, Java, C++, C# i slično). Kao pomoć u proceni programerskih veština interesenata za kurs, organizujemo besplatna preliminarna testiranja. Ukoliko znate da nemate predznanje iz programiranja ili to ustanovite na preliminarnom testiranju, možete se opredeliti za pohađanje kursa Osnove programiranja, koji organizujemo kao pripremu za uspešno praćenje nastave na Front-End Development kursu.\n\nKurs Front-End Development je podeljen na tri modula: Osnove web dizajna i klijentskog web programiranja (modul 1), JavaScript i TypeScript programiranje (modul 2) i Angular programiranje (modul 3). Svaki termin nastave se sastoji iz kraćeg teoretskog dela, u kojem se polaznici upoznaju sa odgovarajućim konceptima, i većeg broja primera i zadataka, kroz koje polaznici primenjuju naučene koncepte u praksi. Na kraju svakog predavanja polaznici dobijaju domaće zadatke namenjene za utvrđivanje gradiva i sticanje samostalnosti u radu. Za polaznike kursa obezbeđen je računar, softver neophodan za realizaciju nastave i nastavni materijal u elektronskoj formi.", 
+        "price": 106800.0,
+        "modules": [
+            {
+                "name": "Modul 1. Osnove web dizajna i klijentskog web programiranja",
+                "subjects": [
+                    "Rad sa Visual Studio Code editorom izvornog koda za efikasniju izradu aplikacija", 
+                    "Opštu arhitekturu web-baziranih sistema i HTTP protokol", 
+                    "Osnovne HTML koncepte i napredne HTML 5 komponente", 
+                    "Osnovne i napredne CSS konstrukcije, uključujući i SASS skript jezik", 
+                    "Opšte principe web-dizajna i razvoja user-friendly web-stranica", 
+                    "Korišćenje Git sistema za kontrolu verzija i timski rad"
+                ]
+            }, 
+            {
+                "name": "Modul 2. JavaScript i TypeScript programiranje",
+                "subjects": [
+                    "Fundamentalne JavaScript koncepte, uključujući objekte, funkcije, manipulisanje DOM-om i njegovim modelom događaja", 
+                    "Osnove TypeScript jezika, koji omogućava lakši razvoj kompleksnih JavaScript aplikacija", 
+                    "Alate za razvijanje front-end aplikacije koje web-čitač nudi, poput konzole, debagera i alata za praćenje mrežne komunikacije"
+                ]
+            }, 
+            {
+                "name": "Modul 3. Angular programiranje",
+                "subjects": [
+                    "Angular 16 JavaScript radni okvir, od njegovih osnovnih koncepata poput modula, komponenti i servisa, do naprednih mogućnosti poput rutiranja", 
+                    "Rad sa spoljnim bibliotekama, što podrazumeva analizu dokumentacije i integraciju tuđeg koda u sopstveno rešenje", 
+                    "Rad sa pratećim alatima, uključujući Node, npm i webpack kako bi se upravljalo kompleksnim projektima kroz organizaciju spoljnih biblioteka i automatizaciju poslova"
+                ]
+            }
+        ],
+        "grading": "Na kraju svakog modula se organizuje poseban termnin za ispit. Rezultati sa parcijalnih ispita nakon 1. i 2. modula nose po 15% ukupno mogućih bodova (100). Nakon 3. modula organizuje se završni ispit koji nosi 70% ukupno mogućih bodova. Sertifikacija se vrši na osnovu zbira rezultata ostvarenih na sva tri ispita.\n\nPo završetku kursa polaznicima se dodeljuje sertifikat o pohađanju ili uspešno završenom kursu, u zavisnosti od rezultata ostvarenih na ispitima. Kurs je uspešno završen ako ukupan broj bodova ostvaren na ispitima iznosi najmanje 50% mogućih bodova.", 
+        "image": "frontend.png"
+    }, 
+    {
+        "id": 5, 
+        "name": "Test Development", 
+        "overview": "Ovo je intenzivni kurs namenjen onima koji žele da steknu kompetencije junior developer-a za testiranje web aplikacija. Gradivo obuhvata osnove testiranja, testiranje serverskog dela web aplikacija upotrebom Java tehnologija i testiranje klijentskog dela web aplikacija korišćenjem JavaScript jezika, kao i Cypress test radnog okvira.", 
+        "weeks": 14, 
+        "classes": 120, 
+        "classesPerWeek": 12, 
+        "description": "Kurs je namenjen onima koji žele da steknu kompetencije junior developer-a za testiranje savremenih web aplikacija. Polaznici koji uspešno završe kurs, preporučuju se za poziv na selekciju za zaposlenje u kompanijama sa kojima FTN Informatika ima dogovor o saradnji. O kojim se kompanijama radi možete pogledati u sekciji Partneri.\n\nZa pohađanje kursa neophodno je da polaznici imaju predznanje iz osnova programiranja u nekom od programskih jezika visokog nivoa (Java, JavaScript, C++, C# i slično). Kao pomoć u proceni programerskih veština interesenata za kurs, organizujemo besplatna preliminarna testiranja. Ukoliko znate da nemate predznanje iz programiranja ili to ustanovite na preliminarnom testiranju, možete se opredeliti za pohađanje kursa Osnove programiranja, koji organizujemo kao pripremu za uspešno praćenje nastave na Test Development kursu.\n\nKurs Test Development je podeljen na tri modula: Osnove testiranja (modul 1), Serversko testiranje -Java (modul 2) i Klijentsko testiranje – JavaScript (modul 3). Svaki termin nastave se sastoji iz kraćeg teoretskog dela, u kojem se polaznici upoznaju sa odgovarajućim konceptima i većeg broja primera i zadataka, kroz koje polaznici primenjuju naučene koncepte u praksi. Na kraju svakog predavanja polaznici dobijaju domaće zadatke, namenjene za utvrđivanje gradiva i sticanje samostalnosti u radu. Za polaznike kursa obezbeđen je računar, softver neophodan za realizaciju nastave i nastavni materijal u elektronskoj formi. Za samostalan rad kod kuće i izradu domaćih zadataka, polaznici treba da poseduju lični računar. Sa obzirom da se na kursu koristi harverski zahtevan softver, lični računar polaznika bi trebao da bude opremljen sa minimalno 8 gb ram memorije.", 
+        "price": 106800.0,
+        "modules": [
+            {
+                "name": "Modul 1. Osnove testiranja",
+                "subjects": [
+                    "Razumevanje osnovnih tipova testiranja", 
+                    "Razumevanje životnog ciklusa otklanjanja grešaka u programu", 
+                    "Sposobnost razumevanja i sastavljanja test scenarija, test slučajeva i test koraka", 
+                    "Sposobnost sastavljanja test izveštaja", 
+                    "Sposobnost sastavljanja bugreporta (detaljnog izveštaja o pronađenim greškama)", 
+                    "Poznavanje osnovnih koncepata veb aplikacija, poznavanje principa klijent-server komunikacije, uloge webbrowser-a i osnova HTTP protokola", 
+                    "Korišćenje alata za razvoj i instalaciju veb aplikacija (Eclipse, ApacheMaven, Git, Jenkins)", 
+                    "Razumevanja koncepata testiranja API-ja", 
+                    "Sposobnost testiranja funkcionalnosti API-ja korišćenjem Postman alata", 
+                    "Poznavanje osnovnih koncepata baza podataka", 
+                    "Poznavanje osnovnih koncepata objektnog programiranja u programskom jeziku Java"
+                ]
+            }, 
+            {
+                "name": "Modul 2. Serversko testiranje - Java",
+                "subjects": [
+                    "Razumevanje koncepata i sposobnost programiranja jediničnih testova u programskom jeziku Java", 
+                    "Poznavanje biblioteka TestNG", 
+                    "Razumevanje koncepata korišćenja simuliranih objekata za potrebe testiranja (mocking)", 
+                    "Poznavanje osnovnih koncepata XML jezika i XPath sintakse", 
+                    "Poznavanje koncepata HTML jezika", 
+                    "Poznavanje koncepata CSS jezika", 
+                    "Sposobnost kreiranja automatizovanih testova u okruženju Selenium", 
+                    "Poznavanje PageObject šablona", 
+                    "Sposobnost pisanja page klasa za potrebe testiranja"
+                ]
+            }, 
+            {
+                "name": "Modul 3. Klijentsko testiranje - JavaScript",
+                "subjects": [
+                    "Poznavanje koncepata end-to-end testiranja", 
+                    "Poznavanje koncepata JavaScript jezika", 
+                    "Sposobnost konfiguracije i pripreme sistema za end-to-end testiranje", 
+                    "Sposobnost programiranja klijentskih jediničnih testova", 
+                    "Sposobnost praćenja izvršavanja (debugging) end-to-end testova", 
+                    "Sposobnost programiranja end-to-end testova u Cypress test radnom okviru.", 
+                    "Cypress je moguće koristiti sa bilo kojim od popularnih JavaScript radnih okvira (Angular, React, Vue)."
+                ]
+            }
+        ],
+        "grading": "Na kraju svakog modula se organizuje poseban termin za ispit. Maksimalni broj bodova na parcijalnom ispitu nakon 1. modula je 20, dok je maksimalni broj bodova na ispitima nakon 2. i 3. modula 40. Sertifikacija se vrši na osnovu zbira rezultata ostvarenih na sva tri ispita.\n\nPo završetku kursa polaznicima se dodeljuje sertifikat o pohađanju ili uspešno završenom kursu, u zavisnosti od rezultata ostvarenih na ispitima. Kurs je uspešno završen ako ukupan broj bodova ostvaren na ispitima iznosi najmanje 50% mogućih bodova.", 
+        "image": "test.png"
+    }, 
+    {
+        "id": 6, 
+        "name": "Android App Development", 
+        "overview": "Ovo je intenzivni kurs namenjen onima koji žele da steknu kompetencije junior developer-a za razvoj Android aplikacija. Gradivo obuhvata osnove Java programiranja, baza podataka i razvoj mobilnih aplikacija na Android platformi.", 
+        "weeks": 12, 
+        "classes": 120, 
+        "classesPerWeek": 12, 
+        "description": "Kurs je namenjen onima koji žele da steknu kompetencije junior developer-a za razvoj mobilnih aplikacija na Android platformi. Polaznici koji uspešno završe kurs, preporučuju se za poziv na selekciju za zaposlenje u kompanijama sa kojima FTN Informatika ima dogovor o saradnji. O kojim se kompanijama radi možete pogledati u sekciji Partneri.\n\nZa pohađanje kursa neophodno je da polaznici imaju predznanje iz osnova programiranja u nekom od programskih jezika visokog nivoa (Java, C++, C#, JavaScripti slično). Kao pomoć u proceni programerskih veština interesenata za kurs, organizujemo besplatna preliminarna testiranja. Ukoliko znate da nemate predznanje iz programiranja ili to ustanovite na preliminarnom testiranju, možete se opredeliti za pohađanje kursa Osnove programiranja, koji organizujemo kao pripremu za uspešno praćenje nastave na Android app development kursu.\n\nKurs Android app development je podeljen na dva modula: Programski jezik Java (modul 1) i Android (modul 2). Svaki termin nastave se sastoji iz kraćeg teoretskog dela, u kojem se polaznici upoznaju sa odgovarajućim konceptima i većeg broja primera i zadataka, kroz koje polaznici primenjuju naučene koncepte u praksi. Na kraju svakog predavanja polaznici dobijaju domaće zadatke, namenjene za utvrđivanje gradiva i sticanje samostalnosti u radu. Za polaznike kursa obezbeđen je računar, tablet, softver neophodan za realizaciju nastave i nastavni materijal u elektronskoj formi.", 
+        "price": 106800.0,
+        "modules": [
+            {
+                "name": "Modul 1. Programski jezik Java",
+                "subjects": [
+                    "Osnove strukturiranog programiranja (sekvenca, selekcija, iteracija, funkcije)", 
+                    "Osnove objektnog programiranja (apstrakcija, generalizacija, asocijacija, agregacija, kompozicija, nasleđivanje, polimorfizam)", 
+                    "Osnove relacionih baza podataka (relacioni model podataka, SQL, objektno-relaciono mapiranje)", 
+                    "Osnove konkurentnog programiranja (niti, sinhronizacija niti)", 
+                    "Osnove alata za razvoj softvera (IntelliJ, Gradle, Git)"
+                ]
+            }, 
+            {
+                "name": "Modul 2. Android",
+                "subjects": [
+                    "Uvod u Android (Android platforma, Android komponente, struktura Android projekta, Android API, Android Studio i Android SDK)", 
+                    "Aktivnosti (osnove aktivnosti, definisanje aktivnosti, životni ciklus aktivnosti namere i filteri namera, startovanje aktivnosti, zadaci i povratni stek, upravljanje zadacima, osnove fragmenata, definisanje fragmenata, životni ciklus fragmenata)", 
+                    "GUI (XML, resursi, konfiguracije uređaja, UI šabloni, osnove pogleda, tipovi pogleda, osnove rasporeda, tipovi rasporeda, stilovi i teme, Material Design)", 
+                    "Servisi (asinhroni zadaci, osnove servisa, startovani i vezani servisi, definisanje servisa, životni ciklus servisa, startovanje servisa)", 
+                    "Dobavljači sadržaja (datoteke na Android platformi, deljena podešavanja, SQLite baza podataka, osnove dobavljača sadržaja, definisanje dobavljača sadržaja, ugrađeni dobavljači sadržaja, punjači)", 
+                    "Komunikacija (telefonija, SMS, mrežno programiranje, REST, JSON)", 
+                    "Lociranje i mape (osnove lociranja, Location API, osnove mapa, Maps API)", 
+                    "Senzori (osnove senzora, senzori pokreta, senzori pozicije, senzori okruženja)"
+                ]
+            }
+        ],
+        "grading": "Na kraju 2. modula organizuje se poseban termin za završni ispit, na osnovu kojeg se vrši sertifikacija.\n\nPo završetku kursa polaznicima se dodeljuje sertifikat o pohađanju ili uspešno završenom kursu, u zavisnosti od rezultata ostvarenog na završnom ispitu. Kurs je uspešno završen, ako polaznik na završnom ispitu ostvari najmanje 50% ukupno mogućih bodova (100).", 
+        "image": "android.png"
+    }, 
+    {
+        "id": 7, 
+        "name": "Embedded Software Development", 
+        "overview": "Ovo je intenzivni kurs namenjen onima koji žele da steknu kompetencije junior software developera za razvoj embedded sistema (automotive industrija, smart home sistemi, potrošačka elektronika, itd.). Gradivo obuhvata osnovno i napredno programiranje u programskom jeziku C, programiranje mikrokontrolera, upotrebu operativnih sistema za rad u realnom vremenu, kao i izradu aplikacija za napredne embedded sisteme.", 
+        "weeks": 15, 
+        "classes": 120, 
+        "classesPerWeek": 12, 
+        "description": "Kurs Embedded software development namenjen je onima koji žele da steknu kompetencije junior software developera za razvoj embedded sistema.\n\nZa pohađanje kursa poželjno je da polaznici poseduju odgovarajuća predznanja iz programiranja u nekom od programskih jezika srednjeg ili visokog nivoa (C, Java, C++, C# i slično). Kao pomoć u proceni programerskih veština interesenata za kurs, organizujemo besplatna preliminarna testiranja. Ukoliko znate da nemate predznanje iz programiranja ili to ustanovite na preliminarnom testiranju, možete se opredeliti za pohađanje kursa Osnove programiranja, koji organizujemo kao pripremu za uspešno praćenje nastave na Embedded Software Development kursu.\n\nKurs Embedded Software Development podeljen je na tri modula: Osnovno i napredno programiranje u programskom jeziku C (modul 1), Osnove pisanja softvera za embedded sisteme (modul 2) i Razvoj naprednih embedded sistema (modul 3). Svaki termin nastave sastoji se iz kraćeg teoretskog dela, u kojem se polaznici upoznaju sa odgovarajućim konceptima, i većeg broja primera i zadataka, kroz koje polaznici primenjuju naučene koncepte u praksi. Na kraju svakog predavanja polaznici dobijaju domaće zadatke namenjene utvrđivanju gradiva i sticanju samostalnosti u radu.\n\nZa polaznike kursa obezbeđen je računar, softver neophodan za realizaciju nastave i nastavni materijal u elektronskoj formi. Pored navedenog, svakom polazniku je obezbeđena i oprema u vidu razvojnog sistema EK-TM4C123GXL i kompleta senzora, koju polaznici koriste za razvoj aplikacija tokom kursa i zadržavaju nakon završetka (cena opreme je uključena u cenu kursa).", 
+        "price": 120000.0,
+        "modules": [
+            {
+                "name": "Programiranje u programskom jeziku C",
+                "subjects": [
+                    "Osnovni i napredni koncepti proceduralnog programiranja u programskom jezika C", 
+                    "Rad sa Code Composer Studio alatom za pisanje softvera", 
+                    "Korišćenje alata za kompajliranje i analizu rada programa na sistemu EK-TM4C123GXL", 
+                    "Napredan rad sa memorijom računara", 
+                    "Korišćenje Git sistema za kontrolu verzija i timski rad"
+                ]
+            }, 
+            {
+                "name": "Osnove embedded sistema",
+                "subjects": [
+                    "Osnovna struktura i namena embedded sistema", 
+                    "Pisanje softvera za embedded sisteme i mikrokontrolere", 
+                    "Osnovne periferije mikrokontrolera (GPIO, tajmeri, EEPROM, PWM, ADC/DCA, watchdog)", 
+                    "Rad sa prekidima mikrokontrolera", 
+                    "Osnove hardvera embedded sistema", 
+                    "Elementi embedded sistema", 
+                    "Osnovni algoritmi embedded softvera"
+                ]
+            }, 
+            {
+                "name": "Razvoj naprednih embedded sistema",
+                "subjects": [
+                    "Komunikacione tehnologije (SPI, UART, I2C)", 
+                    "Režimi rada embedded sistema i mikrokontrolera", 
+                    "Metodologije i procesi razvoja embedded sistema", 
+                    "Osnove testiranja embedded sistema", 
+                    "Sistemi namenjeni za rad u realnom vremenu", 
+                    "Operativni sistemi (FreeRTOS, Linux)", 
+                    "Automotive tehnologije (CAN, LIN, AUTOSAR)"
+                ]
+            }
+        ],
+        "grading": "Na kraju svakog modula organizuje se poseban termin za ispit. Rezultati sa parcijalnih ispita nakon 1. i 2. modula ne utiču na sertifikaciju i služe kao informacija polazniku u kojoj meri je savladao gradivo određenog modula. Nakon 3. modula organizuje se završni ispit, na osnovu kojeg se vrši sertifikacija.\n\nPo završetku kursa polaznicima se dodeljuje sertifikat o pohađanju ili uspešno završenom kursu, u zavisnosti od rezultata ostvarenog na završnom ispitu. Kurs je uspešno završen, ako polaznik na završnom ispitu ostvari najmanje 50% ukupno mogućih bodova (100).", 
+        "image": "embeded.png"
+    }, 
+    {
+        "id": 8, 
+        "name": "Baze podataka", 
+        "overview": "Ovo je intenzivni kurs namenjen onima koji žele da steknu kompetencije junior developera za rad sa bazama podataka. Na ovom kursu možete steći osnovna znanja o bazama podataka i osposobiti se za korištenje naprednih mehanizama za razvoj i administraciju baza podataka.", 
+        "weeks": 12, 
+        "classes": 108, 
+        "classesPerWeek": 12, 
+        "description": "Kurs Baze podataka je intenzivni kurs, koji treba da obezbedi kompetencije junior developera za rad sa bazama podataka.\n\nKurs Baze podataka je podeljen na dve logičke celine, odnosno, modula: Osnove baza podataka (modul 1.) i Napredni mehanizmi baza podataka (modul 2.) i pogodan je kako za početnike tako i za upućene koji žele produbiti stečena znanja.\n\nSvaki termin nastave se sastoji iz kraćeg teoretskog dela, u kojem se polaznici upoznaju sa odgovarajućim konceptima i većeg broja primera i zadataka, kroz koje polaznici primenjuju naučene koncepte u praksi. Na kraju svakog predavanja polaznici dobijaju domaće zadatke, namenjene za utvrđivanje gradiva i sticanje samostalnosti u radu. Za polaznike kursa obezbeđen je računar, softver neophodan za realizaciju nastave i nastavni materijal u elektronskoj formi.", 
+        "price": 96000.0,
+        "modules": [
+            {
+                "name": "Modul 1. Osnove baza podataka",
+                "subjects": [
+                    "Modelovanje baze podataka na konceptualnom nivou – EER model podataka", 
+                    "Prevođenje EER modela podataka u relacioni model podataka", 
+                    "Poznavanje jezika relacionih baza podataka SQL", 
+                    "Sposobnost za rad sa jezikom za definiciju podataka (DDL) relacionog SUBP", 
+                    "Upotreba jezika za manipulaciju podacima (DML)", 
+                    "Sposobnost za rad sa osnovnim SQL upitima", 
+                    "Poznavanje naprednih koncepta za rad sa SQL upitima", 
+                    "Definisanje ograničenja šeme baze podataka (NOT NULL, PRIMARY KEY, UNIQUE, CHECK)", 
+                    "Upotreba pogleda i sekvencera u jeziku SQL"
+                ]
+            }, 
+            {
+                "name": "Modul 2. Napredni mehanizmi baza podataka",
+                "subjects": [
+                    "Poznavanje SQL naredbi za upravljanje resursima u relacionim bazama podataka", 
+                    "Korišćenje hijerarhijskih i rekurzivnih SQL upita", 
+                    "Poznavanje i upotreba transakcione obrade podataka", 
+                    "Poznavanje i upotreba indeksnih struktura", 
+                    "Korišćenje proceduralnih proširenja jezika SQL", 
+                    "Serversko programiranje – izvršni deo programa", 
+                    "Serversko programiranje – obrada podataka putem kursora", 
+                    "Serversko programiranje – izuzeci i obrada grešaka", 
+                    "Serversko programiranje – funkcije, procedure i trigeri"
+                ]
+            }
+        ],
+        "grading": "Na kraju svakog modula organizuje se poseban termin za ispit. Rezultati sa parcijalnih ispita nakon 1. i 2. modula ne utiču na sertifikaciju i služe kao informacija polazniku u kojoj meri je savladao gradivo određenog modula. Nakon 3. modula organizuje se završni ispit, na osnovu kojeg se vrši sertifikacija.\n\nPo završetku kursa polaznicima se dodeljuje sertifikat o pohađanju ili uspešno završenom kursu, u zavisnosti od rezultata ostvarenog na završnom ispitu. Kurs je uspešno završen, ako polaznik na završnom ispitu ostvari najmanje 50% ukupno mogućih bodova (100).", 
+        "image": "database.png"
+    }, 
+    {
+        "id": 9, 
+        "name": "Grafički dizajn", 
+        "overview": "Ovo je intenzivni kurs namenjen onima koji žele da steknu kompetencije neophodne za pripremu štampe, grafički dizajn i dizajn korisničkog interfejsa. Gradivo obuhvata dizajn i pripremu štampe upotrebom Adobe paketa programa (Illustrator, In Design i Photoshop), kao i dizajn korisničkog interfejsa, kroz upoznavanje sa principima dizajna i odnosom između korisničkog interfejsa UI i korisničkog iskustva UX.", 
+        "weeks": 18, 
+        "classes": 160, 
+        "classesPerWeek": 12, 
+        "description": "Kurs za pripremu štampe, grafički dizajn i dizajn korisničkog interfejsa je intenzivni kurs, koji treba da obezbedi kompetencije neophodne za dizajn i pripremu štampe korišćenjem Adobe paketa programa, kao i kompetencije za dizajn korisničkog interfejsa.\n\nKurs Grafički dizajn je podeljen na četiri modula: Dizajn i priprema štampe u programu Adobe Illustrator (modul 1.), Dizajn i priprema štampe u programu Adobe In Design (modul 2.), Dizajn i priprema štampe u programu Adobe Photoshop (modul 3.) i Dizajn korisničkog interfejsa (modul 4.). Kurs je pogodan kako za početnike, tako i za upućene koji žele produbiti stečena znanja.\n\nSvaki termin nastave se sastoji iz kraćeg teoretskog dela, u kojem se polaznici upoznaju sa odgovarajućim konceptima i većeg broja primera i zadataka, kroz koje polaznici primenjuju naučene koncepte u praksi. Na kraju svakog predavanja polaznici dobijaju domaće zadatke, namenjene za utvrđivanje gradiva i sticanje samostalnosti u radu. Za polaznike kursa obezbeđen je računar, softver neophodan za realizaciju nastave i nastavni materijal u elektronskoj formi.", 
+        "price": 259200.0,
+        "modules": [
+            {
+                "name": "Modul 1. Dizajn i priprema štampe u programu Adobe In Design",
+                "subjects": [
+                    "Osnove potrebne za rad u In Design-u", 
+                    "Poznavanje osnova Adobe In Design aplikacije", 
+                    "Primena Adobe In Design aplikacije u pripremi knjiga za štampu", 
+                    "Primena Adobe In Design aplikacije u pripremi novina za štampu", 
+                    "Primena Adobe In Design aplikacije u pripremi specifičnih poslova"
+                ]
+            }, 
+            {
+                "name": "Modul 2. Dizajn i priprema štampe u programu Adobe Illustrator",
+                "subjects": [
+                    "Osnove potrebne za rad u Illustratoru", 
+                    "Upoznavanje radnog okruženja", 
+                    "Alatke za selekciju, kretanje kroz dokument, prikaz", 
+                    "Alati namenjeni crtanju osnovnih grafičkih oblika", 
+                    "Transformacije oblika", 
+                    "Crtanje otvorenih i zatvorenih putanja (Pen tool, Pencil Tool)", 
+                    "Upotreba četkica", 
+                    "Bojenje objekata", 
+                    "Rad sa slojevima", 
+                    "Rad sa tekstom", 
+                    "Rad sa fotografijama", 
+                    "Primena efekata", 
+                    "Rad sa stilovima", 
+                    "Rad sa simbolima", 
+                    "Alati za crtanje u perspektivi", 
+                    "Podešavanja potrebna za profesionalnu pripremu za štampu", 
+                    "Generisanje PDF dokumenta prema izlaznim zahtevima"
+                ]
+            }, 
+            {
+                "name": "Modul 3. Dizajn i priprema štampe u programu Adobe Photoshop",
+                "subjects": [
+                    "Osnove potrebne za rad u Photoshopu", 
+                    "Isecanje i retuširanje - ispravljanje fotografija", 
+                    "Rad sa slojevima - lejerima", 
+                    "Poboljšavanje kvaliteta fotografije", 
+                    "Pravljenje selekcija", 
+                    "Retuširanje slika", 
+                    "Rad sa bojama", 
+                    "Rad sa tekstom i vektorskim oblicima", 
+                    "Pravljenje kolaža od više slika", 
+                    "Filteri", 
+                    "Napredno retuširanje fotografija", 
+                    "Camera raw – digitalna foto laboratorija"
+                ]
+            }
+        ],
+        "grading": "Na kraju svakog modula se organizuje poseban termin za ispit. Maksimalni broj bodova na parcijalnim ispitima svih modula je 25. Sertifikacija se vrši na osnovu zbira rezultata ostvarenih na sva četiri ispita. Maximalan ukupni broj bodova ostvaren na kursu je 100.\n\nPo završetku kursa polaznicima se dodeljuje sertifikat o pohađanju ili uspešno završenom kursu, u zavisnosti od rezultata ostvarenog na završnom ispitu. Kurs je uspešno završen, ako polaznik na završnom ispitu ostvari najmanje 50% ukupno mogućih bodova (100).", 
+        "image": "design.png"
+    }, 
+    {
+        "id": 10, 
+        "name": "Video Game Development", 
+        "overview": "Ovo je intenzivni kurs koji omogućuje polaznicima da se upoznaju sa osnovama razvojnog okruženja Unreal Engine (UE) i njegovim alatima za razvoj video igara i grafički impresivnih 3D svetova, u realnom vremenu. Gradivo obuhvata razvoj video igre kroz zajednički rad, a paralelno i kroz lični projekat, nakon čega će polaznici steći neophodno iskustvo za rad na samostalnim projektima i otvoriti sebi vrata za početak karijere u oblasti industrije video igara na pozicijama Technical Artists i Game Designer (Narrative, Level, and System Design).", 
+        "weeks": 15, 
+        "classes": 120, 
+        "classesPerWeek": 12, 
+        "description": "Cilj kursa jeste upoznavanje sa razvojnim okruženjem Unreal Engine (UE) i njegovim alatima za razvoj igara i grafički impresivnih 3D svetova u realnom vremenu kao i savladavanje osnova dizajna video igara i dizajna nivoa. Kurs je pogodan za početnike bez prethodnog iskustva u radu Unreal Engine okruženja. Poželjno je posedovati iskustvo snalaženja u 3D svetovima i eventualno osnovno znanje u oblasti 3D modelovanja.\n\nPolaznici kursa će steći teorijske i praktične osnove za produkciju interaktivnog 3D sadržaja, bez obzira da li se taj sadržaj kreira za potrebe video igre, arhitektonske vizuelizacije ili, pak, VR/AR aplikacije. Budući da je priroda UE platforme multidisciplinarna, kurs je koncipiran tako da daje polaznicima uvid u osnovne alate i tehnike rada uključujući pripremu i ubacivanje aseta (3D modela, tekstura, audio datoteka i dr.) iz eksternih programa, kreiranje sveta igre, rad sa editorima materijala, čestica, terena, rad sa svetlima, rad sa animacijama, kreiranje karaktera i korisničkog interfejsa, kao i dodavanje interaktivnosti kroz Blueprint sistem vizuelnog programiranja. Struktura kursa je postavljena tako da polaznici stiču navedene kompetencije kroz izradu konkretnih projekata arhitektonske vizuelizacije i 3D video igre od postavke projekata do izvršne verzije igre. Teorijsko predavanje će biti prezentovano uporedo sa demonstracijom direktno u UE 5 softveru. Nakon teorijskog dela, polaznici će na svakom času savladati neki aspekt igre i samostalno dopunjavati svoj polazni projekat.\n\nSvaki termin nastave se sastoji iz kraćeg teoretskog dela, u kojem se polaznici upoznaju sa odgovarajućim konceptima i radom na konkretnom projektu koji može biti upotrebljen na kraju kursa u ličnom portfoliju polaznika. Na kraju svakog predavanja polaznici dobijaju domaće zadatke, namenjene za utvrđivanje gradiva i sticanje samostalnosti u radu. Za polaznike kursa obezbeđen je računar kao i softver neophodan za realizaciju nastave.", 
+        "price": 144000.0,
+        "modules": [
+            {
+                "name": "Modul 1. Dizajn video igara. Narativ i ludologija",
+                "subjects": [
+                    "Teorijske osnove dizajna video igara i level dizajna (slikarstvo, strip, film nasuprot društvenim igrama)", 
+                    "Osnovni koncepti igre i dizajna video igara (Igra kao svrsishodni interaktivni sistem)", 
+                    "Analiza i sinteza kao osnovni mehanizam dizajna sistema (Konstrukcija i dekonstrukcija)", 
+                    "Brainstorming i generisanje ideja (inspiracije, cross-media principi)", 
+                    "Principi narativnog dizajna (Tema, ideja, realizacija narativa kao simbioze sa budućom igrom)", 
+                    "Mentalni prostor igrača i igračevog iskustva (Šta igra daje, šta igra traži, emotivni okidači, koncept flow procesa)", 
+                    "Dokumentacije u produkciji igara", 
+                    "Predstavljanje koncepta igre u formi dokumenta (Game Pitch proces i principi)"
+                ]
+            }, 
+            {
+                "name": "Modul 2. Rad sa bibliotekama i uvod u okruženje Unreal Engine-a",
+                "subjects": [
+                    "Dizajn sistema igre (Sistemi vrednosti unutar igara, mehanike, narativ i simbioza istih)", 
+                    "Ekosistem vizuelnog prostora igre (Od postcards principa do definisanja vizuelnog identiteta)", 
+                    "Proces dizajna nivoa prikazan kroz primere", 
+                    "Gameplay, core loop i mehanike igre (Osnovni načini interakcije igrača i igre, i destilisanje finih mehanika iz istih)", 
+                    "Upoznavanje sa Unreal Engine softverom - istorija, uloga u gejming industriji, kao i primena u arhitekturi, filmskoj industriji, automobilskoj industriji…", 
+                    "Pregled interfejsa", 
+                    "Pregled UE alata i editora (Materijal Editor, Static mesh editor, Terrain and Foliage tool, Particle editors, Blueprint editor)", 
+                    "Izrada projekta (Launcher, Learn Tab, Library Tab, Creating projects)", 
+                    "Rad sa asetima i materijalima, uvoz biblioteka", 
+                    "Ubacivanje aseta u projekat", 
+                    "Ubacivanje aktera u nivo", 
+                    "Kamere u Unreal Engine-u", 
+                    "Editovanje modela i primena materijala"
+                ]
+            }, 
+            {
+                "name": "Modul 3. Uvod u dizajn nivoa i osnovna interaktivnost. Izrada prototipa igre i prezentacija projekta kroz Game pitching",
+                "subjects": [
+                    "Kreiranje nivoa", 
+                    "Detaljan pregled Terrain i Foliage tool alatki", 
+                    "Svetla u UE 4 softveru (Dinamični i statični tipovi svetala, njihova ograničenja i prednosti, Ray tracing)", 
+                    "Bake proces svetala i Light maps", 
+                    "Post processing alatke", 
+                    "Finalno “poliranje” nivoa", 
+                    "Upoznavanje sa Blueprint editorom (Upoznavanje sa grafovima, klase, instance i inheritance, variable i operateri, Nodovi, funkcije, događaji I makroi, Blueprint komunikacija, Game framework i Game instance)", 
+                    "Nameštanje kolizije i fizike na karakterima", 
+                    "Rad sa česticama kroz Cascade Editor", 
+                    "Postavka animacija kretanja za karaktere", 
+                    "Rad sa kamerama i sekvencama za linearne segmente narativa", 
+                    "Nameštanje inputa i plejer kontrolera", 
+                    "Spajanje svih elemenata u jednu interaktivnu celinu", 
+                    "Testiranje igre", 
+                    "Tehnike optimizacije igre", 
+                    "Pakovanje i distribucija projekta"
+                ]
+            }
+        ],
+        "grading": "Na kraju prvog i drugog modula se organizuje parcijalni ispit koji obuhvata proveru znanja iz koncepata obuhvaćenih određenim modulom, sa ciljem testiranja do tad usvojenog znanja polaznika. Po završetku kursa se organizuje poseban termin za završni ispit i prezentaciju projekata, na osnovu čega se vrši sertifikacija.", 
+        "image": "game.png"
+    }, 
+    {
+        "id": 11, 
+        "name": "Osnove Linux-a", 
+        "overview": "Ovaj kurs namenjen je onima koji žele steći uvodna znanja o open-source platformama i Linux operativnim sistemima, sa fokusom na komandni interfejs - CLI. Na ovom kursu možete steći predznanje neophodno za uspešno praćenje nastave na naprednom Linux kursu.", 
+        "weeks": 10, 
+        "classes": 60, 
+        "classesPerWeek": 6, 
+        "description": "Osnovni Linux kurs je namenjen onima koji se žele pripremiti za pohađanje Naprednog Linux kursa. Kurs pruža uvodna znanja o Open source platformama i Linux operativnim sistemima sa fokusom na komandni interfejs – CLI. Na ovom kursu možete steći predznanje neophodno za uspešno praćenje nastave na Naprednom Linux kursu.\n\nMaterijal za kurs Osnove Linux-a (modules) se nalazi u interaktivnoj multimedijalnoj formi, i polazinicima je dostupan preko interneta. Kroz niz laboratorijskih vežbi koje se rade na računaru, stičete praktična znanja u radu sa Linux operativnim sistemima.\n\nPredavanja se sastoje iz kraćeg teoretskog dela, u kojem se polaznici upoznaju sa odgovarajućim konceptima i većeg broja zadataka, u kojima polaznici primenjuju naučene koncepte u praksi. Na kraju svakog predavanja polaznici dobijaju domaće zadatke, namenjene za utvrđivanje gradiva i sticanje samostalnosti u radu. Za svakog polaznika kursa obezbeđen je računar, softver neophodan za realizaciju nastave i nastavni materijal u elektronskoj formi.", 
+        "price": 69000.0,
+        "modules": [
+            {
+                "name": null,
+                "subjects": [
+                    "Spoznaja Linux-a kao operativnog sistema", 
+                    "Osnove procesa odabira operativnog sistema", 
+                    "Osnove relacionih baza podataka (relacioni model podataka, SQL, objektno-relaciono mapiranje)", 
+                    "Osnove open-source softvera i osnove licenciranja", 
+                    "Osnove rada u Linux-u", 
+                    "Osnovne veštine u radu sa LInux komandnom linijom", 
+                    "Korišćenje help komandi", 
+                    "Osnove rada sa datotekama i direktorijumima", 
+                    "Pretraga i pronalaženje podataka u fajlovima", 
+                    "Osnovni koncepti pravljenja skripti", 
+                    "Upoznavanje sa osnovnim konceptima desktop i server kompjutera", 
+                    "Mesto čuvanja podataka u Linux-u", 
+                    "Upoznavanje sa osnovnim mrežnim podešavanjima", 
+                    "Upoznavanje sa različitim tipovima korisnika", 
+                    "Kreiranje korisnika i grupa na Linux-u", 
+                    "Upravljanje vlasništvom i privilegijama nad datotekama", 
+                    "Upoznavanje sa specijalnim datotekama i direktorijumima"
+                ]
+            }
+        ],
+        "grading": "Na kraju kursa organizuje se završni ispit, koji obuhvata celokupno gradivo kursa. Po završetku kursa polaznicima se dodeljuje sertifikat o pohađanju ili uspešno završenom kursu, u zavisnosti od rezultata ostvarenog na završnom ispitu. Kurs je uspešno završen, ako polaznik na završnom ispitu ostvari najmanje 50% ukupno mogućih bodova (100).\n\nOblasti koje pokriva kurs Osnove Linux-a u potpunosti odgovaraju zahtevanim oblastima za dobijanje LPI LE (Linux Professional Institute – Linux Essentials) seritifikata. Sertifikacioni ispit (010-150) se polaže u ovlašćenim Pearson VUE testing centrima i nije uključen u cenu kursa.", 
+        "image": "linux.png"
+    }, 
+    {
+        "id": 12, 
+        "name": "Napredni Linux", 
+        "overview": "Ovaj kurs namenjen je onima koji žele steći kompetencija Sistem Administrator-a. Napredni Linux kurs pruža napredna znanja o Open source platformama i Linux operativnim sistemima, sa fokusom na komandni interfejs - CLI. ", 
+        "weeks": 19, 
+        "classes": 132, 
+        "classesPerWeek": 6, 
+        "description": "Napredni Linux kurs namenjen je onima koji žele steći kompetencije Sistem Administrator-a. Kurs treba da obezbedi napredna znanja o Open source platformama i Linux operativnim sistemima, sa fokusom na komandni interfejs – CLI. Sadržaj ovog kursa se nadovazuje na gradivo koje se izučava na kursu “Osnove Linux-a”.\n\nMaterijal za Napredni Linux kurs se nalazi u interaktivnoj multimedijalnoj formi i polaznicima je dostupan preko Interneta. Kroz niz laboratorijskih vežbi koje se rade na računaru, polaznici kursa stiču praktična znanja u radu sa Linux operativnim sistemima.\n\nPredavanja se sastoje iz kraćeg teoretskog dela, u kojem se polaznici upoznaju sa odgovarajućim konceptima i većeg broja zadataka čijom izradom primenjuju naučene koncepte u praksi. Na kraju svakog predavanja daju se domaći zadaci, namenjeni za utvrđivanje gradiva i sticanje samostalnosti u radu. Za svakog polaznika kursa obezbeđen je računar, softver neophodan za realizaciju nastave i nastavni materijal u elektronskoj formi.", 
+        "price": 95040.0,
+        "modules": [
+            {
+                "name": "Modul 1. Linux I",
+                "subjects": [
+                    "Korišćenje Shell-a", 
+                    "Korišćenje HELP alata", 
+                    "Korišćenje tekstualnih alata", 
+                    "Konfiguracija Shell-a", 
+                    "Manipulacija fajlovima", 
+                    "Korišćenje džoker karaktera", 
+                    "Traženje fajlova", 
+                    "Regularni izrazi", 
+                    "Vi editor", 
+                    "Standardni tekstualni ulaz/izlaz i redirekcija", 
+                    "Upravljanje procesima", 
+                    "Komande za arhiviranje", 
+                    "Upravljanje vlasništvom i privilegijama nad datotekama", 
+                    "Korišćenje linkova u fajl sistemu", 
+                    "Konfiguracija hardvera", 
+                    "Proces pokretanja operatinog sistema", 
+                    "Upravljanje procesom pokretanja operativnog sistema", 
+                    "Upravljanje nivoima izvršavanja operativnog sistema", 
+                    "Dizajn šeme particija hard diska", 
+                    "Kreiranje particija hard diska", 
+                    "Povezivanje fajl sistema", 
+                    "Očuvanje integriteta fajl sistema", 
+                    "Ispravljanje grešaka u fajl sistemu", 
+                    "Disk kvote", 
+                    "Upravljanje aplikativnim paketim akorišćenjem RPM-a i YUM-a", 
+                    "Upravljanje aplikativnim paketima u Debian okruženju"
+                ]
+            },
+            {
+                "name": "Modul 2. Linux II",
+                "subjects": [
+                    "Korišćenje naprednih Shell funkcija", 
+                    "Shell skript", 
+                    "SQL", 
+                    "Komponente grafičkog interfejsa", 
+                    "Upravljanje grafičkim interfejsom", 
+                    "Alati za korisnike sa posebnim potrebama", 
+                    "Upravljanje korisnicima i grupama korisnika", 
+                    "Automatizacija administracije sistema zakazivanjem poslova", 
+                    "Lokalizacija i internacionalizacija", 
+                    "Podešavanje sistemskog vremena", 
+                    "Logovanje sistemskih poruka", 
+                    "Konfiguracija klijenta elektronske pošte", 
+                    "Upravljanje štampačima i štampanjem", 
+                    "Osnove računarskih mreža", 
+                    "Podešavanje mrežnih parametara sistema", 
+                    "Rešavanje problema u računarskim mrežama", 
+                    "Podešavanje sigurnosti naloga", 
+                    "Podešavanje sigurnosti uređaja", 
+                    "Enkripcija"
+                ]
+            }
+        ],
+        "grading": "Na kraju svakog modula se organizuje poseban termnin za ispit. Nakon 1. modula organizuje se parcijalni ispit koji nosi 50% ukupno mogućih bodova (100). Nakon 2. modula organizuje se završni ispit koji takođe nosi 50% ukupno mogućih bodova. Sertifikacija se vrši na osnovu zbira rezultata ostvarenih na oba ispita.\n\nPo završetku kursa polaznicima se dodeljuje sertifikat o pohađanju ili uspešno završenom kursu, u zavisnosti od rezultata ostvarenih na ispitima. Kurs je uspešno završen ako ukupan broj bodova ostvaren na ispitima iznosi najmanje 50% mogućih bodova.\n\nOblasti koje pokriva Napredni Linux kurs u potpunosti odgovaraju zahtevanim oblastima za dobijanje LPI LPIC-1 (Linux Professional Institute – Linux Administrator) seritifikata. Ovaj sertifikacioni ispit se polaže u ovlašćenim Pearson VUE testing centrima i nije uključen u cenu kursa.", 
+        "image": "linux2.png"
+    }, 
+    {
+        "id": 13, 
+        "name": "iOS App Development", 
+        "overview": "Ovo je intenzivni kurs namenjen onima koji žele da steknu kompetencije junior developer-a za razvoj mobilnih aplikacija na iOS platformi. Na ovom kursu možete steći predznanje neophodno za uspešno praćenje nastave na Advanced iOS development kursu.", 
+        "weeks": 14, 
+        "classes": 120, 
+        "classesPerWeek": 12, 
+        "description": "Kurs je namenjen onima koji žele da steknu kompetencije junior developer-a za razvoj mobilnih aplikacija na iOS platformi. Na ovom kursu možete steći predznanje neophodno za uspešno praćenje nastave na Advanced iOS development kursu.\n\nKurs iOS app development je podeljen na dve logičke celine, odnosno, modula: Programski jezik Swift (modul 1) i Osnove razvoja aplikacija za iOS platformu (modul 2). Svaki termin nastave se sastoji iz kraćeg teoretskog dela, u kojem se polaznici upoznaju sa odgovarajućim konceptima i većeg broja primera i zadataka, kroz koje polaznici primenjuju naučene koncepte u praksi. Na kraju svakog predavanja polaznici dobijaju domaće zadatke, namenjene za utvrđivanje gradiva i sticanje samostalnosti u radu. Za polaznike kursa obezbeđen je računar, softver neophodan za realizaciju nastave i nastavni materijal u elektronskoj formi.", 
+        "price": 227000.0,
+        "modules": [
+            {
+                "name": "Modul 1. Programski jezik Swift",
+                "subjects": [
+                    "Osnove programskog jezika Swift:\n\n- Izrazi, promenjive, konstante, tipovi podataka, operacije\n\n- Kontrole toka izvršavanja programa\n\n- Napredne kontrole toka izvršavanja programa\n\n- Funkcije", 
+                    "Kolekcije u programskom jeziku Swift:\n\n- Liste, mape, setovi\n\n- Iteriranje kolekcija\n\n- Stringovi", 
+                    "Izvedeni tipovi podataka u programskom jeziku Swift:\n\n- Strukture\n\n- Klase\n\n- Svojstva\n\n- Metode\n\n- Napredne klase\n\n- Enumeracije", 
+                    "Napredni koncepti u programskom jeziku Swift:\n\n- Kontrola pristupa i organizacija koda\n\n- Rukovanje greškama\n\n- Rukovane memorijom\n\n- Protokoli\n\n- Generičko programiranje"
+                ]
+            },
+            {
+                "name": "Modul 2. Osnove razvoja aplikacija za iOS platformu",
+                "subjects": [
+                    "Xcode razvojno okuženje", 
+                    "Pregled iOS SDK (Software Development Kit):\n\n- Prikaz strukture iOS SDK (Cocoa Touch framework-a, Media, Core Services i Core OS)", 
+                    "MVC (Model-View-Controller) arhitektura za iOS", 
+                    "Pisanje kontrolera (UIViewController):\n\n- Kreiranje kontrolera\n\n- Startovanje kontrolera\n\n- Životni ciklus kontrolera\n\n- Veza između kontrolera i grafičkog korisničkog interfejsa\n\n- Praktične napomene za kontrolere", 
+                    "Rukovanje komponentama korisničkog interfejsa (GUI):\n\n- Rad sa osnovnim elementima korisničkog interfejsa: UIView, UIButton, UILabel, UITextField, UITextView, UISlider, UISwitch, ...\n\n- Praktične napomene za komponente korisničkog interfejsa", 
+                    "Rukovanje Navigacionim i TabBar kontrolerima:\n\n- Rad sa navigacionim kontrolerima (UINavigationController)\n\n- Rad sa TabBar kontrolerima (UITabbarController)\n\n- Praktične napomene za navigacione i TabBar kontrolere", 
+                    "Korišćenje AutoLayout i Storyboards:\n\n- Rad sa deklarativnim sistemom za pozicioniranje elemenata grafičkog korisničkog interfejsa (AutoLayout)\n\n- Rad sa vizuelnom reprezentacijom grafičkog korisničkog interfejsa (Storyboards)\n\n- Praktične napomene za AutoLayout i Storyboards", 
+                    "Kontejneri elemenata korisničnog interfejsa:\n\n- Rad sa UIScrollView komponentom\n\n- Rad sa UITableView komponentom\n\n- Rad sa UICollectionView komponentom\n\n- Rad sa UIStackView komponentom\n\n- Praktične apomene za kontejnere elemenata korisničnog interfejsa", 
+                    "Perzistencija podataka:\n\n- Rad sa lokalnom bazom podataka (NSUserDefaults)\n\n- Osnove CoreData framework-a\n\n- Praktične napomene za perzistovanje podataka", 
+                    "Mrežno programiranje (Networking):\n\n- Rad sa HTTP protokolom, REST, JSON"
+                ]
+            }
+        ],
+        "grading": "Na kraju svakog modula organizuje se poseban termin za ispit. Rezultati sa parcijalnog ispita nakon 1. modula ne utiču na sertifikaciju i služe kao informacija polazniku u kojoj meri je savladao gradivo. Nakon 2. modula organizuje se završni ispit, na osnovu kojeg se vrši sertifikacija.\n\nPo završetku kursa polaznicima se dodeljuje sertifikat o pohađanju ili uspešno završenom kursu, u zavisnosti od rezultata ostvarenog na završnom ispitu. Kurs je uspešno završen, ako polaznik na završnom ispitu ostvari najmanje 50% ukupno mogućih bodova (100).", 
+        "image": "ios.png"
+    }, 
+    {
+        "id": 14, 
+        "name": "Advanced iOS Development", 
+        "overview": "Ovo je intenzivni kurs namenjen onima koji žele da steknu kompetencije medior developer-a za razvoj mobilnih aplikacija na iOS platformi.", 
+        "weeks": 14, 
+        "classes": 120, 
+        "classesPerWeek": 12, 
+        "description": "Kurs je namenjen onima koji žele da steknu kompetencije medior developer-a za razvoj mobilnih aplikacija na iOS platformi\n\nKurs Advanced iOS development je podeljen na dva modula: Napredni koncepti programskog jezika Swift (modul 1) i Napredne tehnike razvoja aplikacija za iOS platformu (modul 2). Svaki termin nastave se sastoji iz kraćeg teoretskog dela, u kojem se polaznici upoznaju sa odgovarajućim konceptima i većeg broja primera i zadataka, kroz koje polaznici primenjuju naučene koncepte u praksi. Na kraju svakog predavanja polaznici dobijaju domaće zadatke, namenjene za utvrđivanje gradiva i sticanje samostalnosti u radu. Za polaznike kursa obezbeđen je računar, softver neophodan za realizaciju nastave i nastavni materijal u elektronskoj formi.", 
+        "price": 227000.0,
+        "modules": [
+            {
+                "name": "Modul 1. Napredni koncepti programskog jezika Swift",
+                "subjects": [
+                    "Napredni koncepti Swift-a: Extensions, Subscripts, Advanced Operators, Generics", 
+                    "Funkcionalno programiranje u Swift-u", 
+                    "Protokol-orijentisano programiranje u Swift-u", 
+                    "Dizajn šabloni u Swift-u: Delegation, KVO, Observer, Notification, State, Facade, Factory, Memento, Strategy", 
+                    "Tehnike za obradu grešaka", 
+                    "Napredno upravljanje memorijom", 
+                    "Dobra praksa u Swift-u i preporuke za stil"
+                ]
+            },
+            {
+                "name": "Modul 2. Napredne tehnike razvoja aplikacija za iOS platformu",
+                "subjects": [
+                    "Advanced Core Data", 
+                    "Advanced Auto Layout", 
+                    "iOS Architectures - MVC - Pros & Cons", 
+                    "iOS Architectures - MVVM - Pros & Cons", 
+                    "iOS Architectures - VIPER - Pros & Cons", 
+                    "iOS Architectures - VIP (Clean Swift) - Pros & Cons", 
+                    "iOS Architectures - Coordinators & Flow Controllers", 
+                    "Unit testing", 
+                    "UI testing", 
+                    "Xcode - tips & tricks", 
+                    "Xcode debugging - tips & tricks"
+                ]
+            }
+        ],
+        "grading": "Na kraju svakog modula organizuje se poseban termin za ispit. Rezultati sa parcijalnog ispita nakon 1. modula ne utiču na sertifikaciju i služe kao informacija polazniku u kojoj meri je savladao gradivo. Nakon 2. modula organizuje se završni ispit, na osnovu kojeg se vrši sertifikacija.\n\nPo završetku kursa polaznicima se dodeljuje sertifikat o pohađanju ili uspešno završenom kursu, u zavisnosti od rezultata ostvarenog na završnom ispitu. Kurs je uspešno završen, ako polaznik na završnom ispitu ostvari najmanje 50% ukupno mogućih bodova (100).", 
+        "image": "ios2.png"
+    }
+]

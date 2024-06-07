@@ -1,0 +1,18 @@
+{
+  "name": "NodeBackend",
+  "version": "1.0.0",
+  "description": "A simple backend for an angular app.",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'No build step required'",
+    "dev": "vercel dev"
+  },
+  "author": "Nikola Luburić",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cors": "^2.8.5",
+    "express": "^4.13.3",
+    "http": "^0.0.1-security"
+  }
+}
